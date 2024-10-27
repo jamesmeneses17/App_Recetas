@@ -41,14 +41,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCClnAEpepbfbAp-1OAASt1nxzUauEXwBY',
-    appId: '1:639962325386:web:20a509d2e6932dee3de873',
-    messagingSenderId: '639962325386',
-    projectId: 'app-recetas-31869',
-    authDomain: 'app-recetas-31869.firebaseapp.com',
-    storageBucket: 'app-recetas-31869.appspot.com',
-    measurementId: 'G-MZ4VX3089Y',
-  );
+      apiKey: "AIzaSyCClnAEpepbfbAp-1OAASt1nxzUauEXwBY",
+      authDomain: "app-recetas-31869.firebaseapp.com",
+      projectId: "app-recetas-31869",
+      storageBucket: "app-recetas-31869.appspot.com",
+      messagingSenderId: "639962325386",
+      appId: "1:639962325386:web:8c140f968a5efe1c3de873",
+      measurementId: "G-V6YPV6GFHE");
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDbjKdlWhsr9ZO9zxzKrTRa2Qpjmy1LDfE',

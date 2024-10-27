@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';  // Este archivo debe haberse generado con Firebase CLI
-import 'screens/login_screen.dart';  // Asegúrate de que los archivos estén en el lugar correcto
+import 'firebase_options.dart';
+import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/ProfileScreen.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,8 +25,11 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginScreen(),
+        '/login': (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
         '/home': (context) => HomeScreen(),
+        '/profile': (context) =>
+            ProfileScreen(), 
       },
     );
   }
